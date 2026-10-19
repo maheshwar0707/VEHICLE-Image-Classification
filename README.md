@@ -8,7 +8,7 @@
 [![Inference Latency](https://img.shields.io/badge/Latency-~50ms-2563EB?style=flat-square)](#benchmark-performance)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-An end-to-end, production-grade **Machine Learning and Computer Vision** system designed to perform fine-grained vehicle classification across 7 target transportation categories. Powered by a two-stage fine-tuned **MobileNetV3-Large** convolutional neural network, the system integrates **Gradient-weighted Class Activation Mapping (Grad-CAM)** for transparent visual feature attribution and runs locally in real time via an interactive **Streamlit** dashboard.
+An end-to-end, production-grade **Machine Learning and Computer Vision** system designed to perform fine-grained vehicle classification across 7 target transportation categories. Powered by a two-stage fine-tuned **MobileNetV3-Large** convolutional neural network, the system integrates **Gradient-weighted Class Activation Mapping (Grad-CAM)** for transparent visual feature attribution and runs locally in real time via an interactive **Streamlit** dashboard. Here is the live streamlit app link : https://vehicle-image-classification.streamlit.app/ CHECK IT OUT
 
 ---
 
