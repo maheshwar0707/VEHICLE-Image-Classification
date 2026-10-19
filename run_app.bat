@@ -1,7 +1,7 @@
 @echo off
-title AI Vehicle Classifier
+title Fine-Grained Vehicle Classifier (Deep Learning)
 echo ========================================================
-echo   Launching AI Fine-Grained Vehicle Classifier Web App
+echo   Launching Fine-Grained Vehicle Classifier ML Web App
 echo ========================================================
 echo.
 py -m streamlit run app.py --server.port 8501
