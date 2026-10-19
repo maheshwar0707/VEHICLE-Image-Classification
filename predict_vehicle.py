@@ -57,7 +57,7 @@ def predict(image_path: str, model_path: str = "best_vehicle_classifier.keras", 
         ]
 
     logger.info("Loading trained model from %s...", model_path)
-    model = tf.keras.models.load_model(model_path)
+    model = tf.keras.models.load_model(model_path, compile=False)
 
     # Preprocess image
     logger.info("Loading image: %s", img_file.name)

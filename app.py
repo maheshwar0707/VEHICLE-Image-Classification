@@ -644,7 +644,7 @@ def load_app_resources():
         st.error(f"Model file '{MODEL_PATH}' was not found. Please verify it is in your project folder.")
         st.stop()
 
-    model = tf.keras.models.load_model(MODEL_PATH)
+    model = tf.keras.models.load_model(MODEL_PATH, compile=False)
 
     if os.path.exists(CLASSES_PATH):
         with open(CLASSES_PATH, "r") as f:
